@@ -1,6 +1,6 @@
 # Bike_Safety_project
 
-Bike Safety Project - BiLSTM Model Deployment on Arduino Nano 33 IoT
+Bike Safety Project - BiLSTM Model Deployment on Nano 33 iot
 
 Overview
 The Bike Safety Project is a MATLAB-based project that utilizes accelerometer and gyroscope datasets to classify bike movements for enhancing safety measures. The project involves developing a Bidirectional Long Short-Term Memory (BiLSTM) model in MATLAB, and subsequently quantizing the model to deploy it on the target device. This deployment will enable real-time classification of bike movements using the on-board sensors, making it a practical and portable solution for bike safety.
