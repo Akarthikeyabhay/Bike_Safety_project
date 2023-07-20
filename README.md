@@ -20,7 +20,7 @@ Accelerometer and Gyroscope Dataset: Collect and preprocess the dataset for trai
 
 Usage
 1. Data Preprocessing
-Ensure that you have a labeled dataset containing accelerometer and gyroscope data for different bike movements (e.g., turning left, turning right, braking, etc.). The dataset should be split into training and testing sets.
+Ensure that you have a labeled dataset containing accelerometer and gyroscope data for different bike movements (e.g., turning left, turning right, bump, etc.). The dataset should be split into training and testing sets.
 
 2. BiLSTM Model Development
 In MATLAB, execute the script that builds and trains the BiLSTM model on the preprocessed dataset. The model should be designed to classify the different bike movements accurately. Fine-tune the hyperparameters as needed for optimal performance.
