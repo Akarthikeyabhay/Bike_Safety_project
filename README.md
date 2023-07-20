@@ -1,17 +1,17 @@
-# Bike Safety Project - BiLSTM Model Deployment on Arduino Nano 33 IoT
+# Bike Safety Project - BiLSTM Model building and quantizing
 
 
 
 ## Overview
 
-The Bike Safety Project is a MATLAB-based project that utilizes accelerometer and gyroscope datasets to classify bike movements for enhancing safety measures. The project involves developing a Bidirectional Long Short-Term Memory (BiLSTM) model in MATLAB, and subsequently quantizing the model to deploy it on the Arduino Nano 33 IoT board. This deployment will enable real-time classification of bike movements using the on-board sensors, making it a practical and portable solution for bike safety.
+The Bike Safety Project is a MATLAB-based project that utilizes accelerometer and gyroscope datasets to classify bike movements for enhancing safety measures. The project involves developing a Bidirectional Long Short-Term Memory (BiLSTM) model in MATLAB, and subsequently quantizing the model . This deployment will enable real-time classification of bike movements using the on-board sensors, making it a practical and portable solution for bike safety.
 
 ## Features
 
 - Utilizes accelerometer and gyroscope datasets for bike movement classification.
 - BiLSTM model for sequence data processing in MATLAB.
-- Quantization of the model for efficient deployment on Arduino Nano 33 IoT.
-- Real-time classification of bike movements directly on the Nano 33 IoT board.
+- Quantization of the model for efficient deployment .
+- Real-time classification of bike movements directly on the microcontroller.
 
 ## Prerequisites
 
@@ -34,7 +34,7 @@ In MATLAB, execute the script that builds and trains the BiLSTM model on the pre
 
 ### 3. Model Quantization
 
-Quantize the trained BiLSTM model to reduce its size and make it suitable for deployment on the Arduino Nano 33 IoT board. This step is essential as the Nano 33 IoT has limited computational resources.
+Quantize the trained BiLSTM model to reduce its size and make it suitable for deployment on the target. This step is essential as the Nano 33 IoT has limited computational resources.
 
 ### 4. Arduino Deployment
 
