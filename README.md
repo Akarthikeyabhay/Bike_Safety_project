@@ -36,9 +36,10 @@ In MATLAB, execute the script that builds and trains the BiLSTM model on the pre
 
 Quantize the trained BiLSTM model to reduce its size and make it suitable for deployment on the target. This step is essential as the Nano 33 IoT has limited computational resources.
 
-### 4. Arduino Deployment
 
-Upload the quantized BiLSTM model to the Arduino Nano 33 IoT board using the Arduino IDE. The board's onboard accelerometer and gyroscope will be used for real-time data input.
+
+
+If you have not understand the code i kept a text file explaining the code.
 
 
 ## Acknowledgments
