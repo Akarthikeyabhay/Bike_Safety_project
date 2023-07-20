@@ -1,6 +1,6 @@
 %reading the csv files
-test=readtable('C:\Users\karth\Downloads\data_test_24-29.csv');
-train=readtable('C:\Users\karth\Downloads\data_train_24-29.csv');
+test=readtable(testdataset);
+train=readtable(traindataset);
 
 %feature engineering-- removing the unwanted columns
 train_data = train(:, {'Ax', 'Ay', 'Az', 'Gx', 'Gy', 'Gz', 'Speed', 'Label'});
