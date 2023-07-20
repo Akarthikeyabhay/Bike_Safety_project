@@ -43,6 +43,6 @@ Upload the quantized BiLSTM model to the Arduino Nano 33 IoT board using the Ard
 
 ## Acknowledgments
 
-I extend my sincere appreciation to Dr. Deepak Gangaradhan for his expert guidance and support throughout this project. I am also grateful to Ms. Usha for her valuable collaboration and assistance. Special thanks to the creators of the Arduino Nano 33 IoT board and the MATLAB Deep Learning Toolbox for making this project possible.
+I extend my sincere appreciation to Dr. Deepak Gangaradhan for his expert guidance and support throughout this project. I am also grateful to Ms. Usha for her valuable collaboration and assistance. Special thanks to  the MATLAB Deep Learning Toolbox for making this project possible.
 
 
