@@ -10,7 +10,7 @@ for i = 1:numSequences
 end
 
 
-% Create an arrayDatastore for x_test_new
+
 % Create an arrayDatastore for the transformed x_test_new
 xTestDs = arrayDatastore(xTestNumeric, 'IterationDimension', 3);
 
@@ -21,6 +21,8 @@ data=combine(xTestDs,yTestDs);
 dq = dlquantizer(net, 'ExecutionEnvironment', 'CPU');
 
 dq.calibrate(data);
+
+%now quantize the model from deep learning quantizer tool box and generate C/C++ target for hardware
 
 
 
